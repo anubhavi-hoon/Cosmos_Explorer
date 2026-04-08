@@ -12,7 +12,6 @@ header {
   background: rgba(255,255,255,0.05);
   backdrop-filter: blur(10px);
 }
-
 .controls {
   display: flex;
   gap: 10px;

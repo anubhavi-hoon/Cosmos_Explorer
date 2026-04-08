@@ -70,7 +70,6 @@ document.getElementById("toggleTheme").addEventListener("click", () => {
   const btn = document.getElementById("toggleTheme");
   btn.textContent = document.body.classList.contains("light") ? "Dark" : "Light";
 });
-
 document.getElementById("sort").addEventListener("change", (e) => {
   const value = e.target.value;
 
