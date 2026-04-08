@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmos Explorer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🌌 Cosmos Explorer</h1>
+    <button id="toggleTheme">Dark</button>
+  </header>
+
+  <section class="controls">
+    <input type="text" id="search" placeholder="Search space...">
+    
+    <select id="sort">
+      <option value="">Sort</option>
+      <option value="title">Title</option>
+      <option value="date">Date</option>
+    </select>
+  </section>
+
+  <div id="loader">Loading...</div>
+
+  <div id="container"></div>
+  <script src="script.js"></script>
+</body>
+</html>
